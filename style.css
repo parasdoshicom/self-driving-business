@@ -12,3 +12,5 @@
 @media(max-width:680px){.syllabus-intro,.weeks article{grid-template-columns:1fr;gap:12px}.syllabus-intro p,.syllabus-intro h2{margin-block:8px}.weeks article{padding:22px 0}.weeks .plate{height:clamp(130px,40vw,230px)}}
 .weeks .plate{height:auto;aspect-ratio:3.8}.weeks article:first-child .plate{aspect-ratio:3.8}
 @media(max-width:680px){.weeks .plate,.weeks article:first-child .plate{aspect-ratio:3.2}}
+
+.teacher-grid{display:block}.bio p{margin:0 0 .45em}.bio .under{display:inline-block;margin-top:.65em}
