@@ -8,3 +8,7 @@
 .nav-cta{display:inline-flex;align-items:center;min-height:44px}
 
 .mobile-facts{display:none}@media(max-width:680px){.mobile-facts{display:block;color:var(--soft);font-size:13px;margin:12px 0 0}}
+.syllabus{padding-block:clamp(50px,6vw,88px)}.syllabus-intro{display:grid;grid-template-columns:1fr 1fr;gap:7%;align-items:center;margin-bottom:24px}.syllabus-intro>p{max-width:540px;color:var(--soft)}.weeks article{display:grid;grid-template-columns:.8fr 1.2fr;align-items:center;gap:6%;padding:30px 0}.weeks .plate{width:100%;height:clamp(160px,17vw,225px);object-fit:cover;border-radius:2px}.weeks article:first-child .plate{object-position:center 37%}.weeks article .label{margin:0}.weeks h3{max-width:630px}.weeks article div>p:last-child{max-width:670px}.teacher-grid>div>p:first-child{margin-top:0}.enroll ol{padding-left:1.25em}.enroll li{padding:4px 0}.enroll .price{font-size:34px}
+@media(max-width:680px){.syllabus-intro,.weeks article{grid-template-columns:1fr;gap:12px}.syllabus-intro p,.syllabus-intro h2{margin-block:8px}.weeks article{padding:22px 0}.weeks .plate{height:clamp(130px,40vw,230px)}}
+.weeks .plate{height:auto;aspect-ratio:3.8}.weeks article:first-child .plate{aspect-ratio:3.8}
+@media(max-width:680px){.weeks .plate,.weeks article:first-child .plate{aspect-ratio:3.2}}
